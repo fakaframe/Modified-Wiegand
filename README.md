@@ -63,9 +63,9 @@ ModifiedWiegand/
 
 ## 💻 How to Run
 
-### 🔹 Compile:
 ```bash
 javac *.java
-
-### 🔹 Run:
 java Main
+
+
+
