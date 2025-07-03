@@ -56,10 +56,10 @@ Decoded bits: `1011010001`
 
 ModifiedWiegand/
 │
-├── BitUtils.java # Bit-level read/write operations
-├── ModifiedWiegand.java # Core encoding & decoding logic
-├── WiegandIO.java # User input/output and validation
-└── Main.java # Program entry point
+├── BitUtils.java       # Bit-level read/write operations  
+├── ModifiedWiegand.java # Core encoding & decoding logic  
+├── WiegandIO.java      # User input/output and validation  
+└── Main.java           # Program entry point  
 
 ---
 
@@ -68,5 +68,4 @@ ModifiedWiegand/
 ### 🔹 Compile:
 ```bash
 javac *.java
-### 🔹 Run:
-java Main
+🔹 Run:
