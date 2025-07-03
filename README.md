@@ -35,18 +35,17 @@ To convert back from `D0` and `D1` to the original serial stream:
 Given bitstream: `1011010001`
 
 The encoded lines:
-Input: 1 0 1 1 0 1 0 0 0 1
-D0: 1 0 1 T 0 1 0 0 0 1
-D1: 0 1 0 0 1 0 1 T T 0
+- Input: 1 0 1 1 0 1 0 0 0 1
+- D0:    1 0 1 T 0 1 0 0 0 1
+- D1:    0 1 0 0 1 0 1 T T 0
 
 Where:
 - `T` = toggled bit (repeated value using line toggling)
 - The toggling acts as the clock signal
 
 Another test case:
-
-D0 = 1010010001
-D1 = 0100101010
+- D0 = 1010010001
+- D1 = 0100101010
 
 Decoded bits: `1011010001`
 
@@ -55,11 +54,10 @@ Decoded bits: `1011010001`
 ## 🛠️ Project Structure
 
 ModifiedWiegand/
-│
-├── BitUtils.java       # Bit-level read/write operations  
-├── ModifiedWiegand.java # Core encoding & decoding logic  
-├── WiegandIO.java      # User input/output and validation  
-└── Main.java           # Program entry point  
+- BitUtils.java        # Bit-level read/write operations  
+- ModifiedWiegand.java # Core encoding & decoding logic  
+- WiegandIO.java       # User input/output and validation  
+- Main.java            # Program entry point  
 
 ---
 
@@ -68,4 +66,6 @@ ModifiedWiegand/
 ### 🔹 Compile:
 ```bash
 javac *.java
-🔹 Run:
+
+### 🔹 Run:
+java Main
